@@ -18,25 +18,37 @@ class _HomeScreenState extends State<HomeScreen> {
       'title': 'Dashboard',
       'subtitle': 'Lihat ringkasan aktivitas',
       'icon': Icons.dashboard,
-      'color': Colors.blue,
+      'color': AppColors.primary,
     },
     {
       'title': 'Profil',
       'subtitle': 'Kelola informasi pribadi',
       'icon': Icons.person,
-      'color': Colors.green,
+      'color': AppColors.secondary,
     },
     {
       'title': 'Pengaturan',
       'subtitle': 'Konfigurasi aplikasi',
       'icon': Icons.settings,
-      'color': Colors.orange,
+      'color': Color(0xFFFFC107),
     },
     {
       'title': 'Bantuan',
       'subtitle': 'Dapatkan dukungan',
       'icon': Icons.help,
-      'color': Colors.purple,
+      'color': Color(0xFF9C27B0),
+    },
+    {
+      'title': 'Pesan',
+      'subtitle': 'Lihat pesan Anda',
+      'icon': Icons.message,
+      'color': Color(0xFF00BCD4),
+    },
+    {
+      'title': 'Kalender',
+      'subtitle': 'Jadwal dan acara',
+      'icon': Icons.calendar_today,
+      'color': Color(0xFFE91E63), 
     },
   ];
 
@@ -97,7 +109,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Halo, Pengguna!',
+                          'Halo, Babang Aqil tamvan!',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w600,
